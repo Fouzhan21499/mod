@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding-left: 100px;
+  padding-right: 100px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 20%;
+  padding-left: 0px;
+
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: white;
+  width: 100%;
+  padding: 20px;
+  
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+
+}
+.card1 {
+   background-color:#e8e5e1;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/*doted*/
+
+.dashed {
+  border-bottom: 4px dotted #000;
+  text-align: center;
+  
+  height: 10px;
+  margin-bottom: 10px;
+}
+
+.dashed span {
+  background: #fff;
+  
+}
+.ss{
+    padding-left: 20px;
+}
+.ssa{
+   text-align: justify;
+}
+.x{
+    padding-left: 20px;
+}
+
+.img2 {
+  float: left;
+}
+.fab {
+    color: cornflowerblue;
+}
+.fas{
+    color: cornflowerblue;
+}
+
+</style>
+</head>
+<body>
+ 
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <div class="fakeimg" style="height:400px;"><img src="background images.jpg" style="width: 100%;height: 360px;background-size: 100% 100%;"></div>
+      <p style="padding-right:10px;padding-left:14px;">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+
+    <div class="dashed">
+        <span></span>
+      </div>
+
+
+
+    <div class="card">
+    
+      
+        <p class="ss"><img src="background images.jpg" style="width:30%; height: 150px; float: left;">
+            <h3 style="color: blue;font-size: 30px;">Lorem ispum dolor sit</h3>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <br>
+      <br>  
+     
+      <p class="ss"><img src="background images.jpg" style="width:30%; height: 150px; float: left;"></p><h3 style="color: blue;font-size: 30px;">Lorem ispum dolor sit</h3><div class="ssd">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
+
+
+    </div>
+
+  
+
+
+
+  </div>
+  <div class="rightcolumn">
+    <div class="card1">
+      <p style="text-decoration: underline;">Some text about me in culpa qui officia deserunt mollit anim..</p>
+      <h3 style="color: blue;font-size:30px;">Share</h3>
+
+      <div class="dashed">
+        <span></span>
+      </div>
+      <i class="fab fa-facebook-square fa-3x"></i>
+      <i class="fab fa-twitter-square fa-3x"></i>
+      <i class="fas fa-wifi fa-3x"></i>
+
+
+      <h3 style="color: blue;font-size:30px;">Read More Post</h3>
+      <div class="dashed">
+        <span></span>
+      </div>
+
+   <i class="fas fa-arrow-circle-right" style="color: black;"></i>  Some text about me in culpa qui officia deserunt mollit animation took in the data formation to the Developer</p>
+   <br>
+   <br>
+   <br>
+   <i class="fas fa-arrow-circle-right" style="color: black;"></i>  Some text about me in culpa qui officia deserunt mollit animation took in the data formation to the Developer</p>
+   <br>
+   <br>
+   <br>
+   <i class="fas fa-arrow-circle-right" style="color: black;"></i>  Some text about me in culpa qui officia deserunt mollit animation took in the data formation to the Developer</p>
+</div>
+</div>
+
+
+</body>
+</html>
